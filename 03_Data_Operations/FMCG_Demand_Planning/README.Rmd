@@ -1,0 +1,130 @@
+FMCG Demand Planning & Data Validation System
+From inconsistent data to confident decisions
+________________________________________
+Overview
+This project demonstrates how to generate reliable, actionable demand planning decisions from imperfect FMCG data.
+Instead of assuming clean inputs, the system:
+•	Validates data before use
+•	Identifies inconsistencies
+•	Introduces an operational correction loop (recounts)
+•	Re-evaluates data reliability after intervention
+•	Produces outputs that can be acted on with confidence
+________________________________________
+The Problem
+In real business environments, planning data is rarely perfect.
+This dataset included:
+•	Inconsistent product identifiers
+•	Multiple pack sizes distorting movement
+•	Formatting issues (scientific notation, decimals)
+•	No clear product hierarchy
+•	Movement data that did not reconcile cleanly
+This creates a critical issue:
+A correct calculation can still lead to a wrong decision.
+________________________________________
+Approach
+Rather than forcing perfect data, I designed a system around control and validation:
+1.	Standardise movement into cases
+2.	Rebuild product grouping logic
+3.	Validate movement behaviour
+4.	Classify reliability (Acceptable / Check / Problem)
+5.	Isolate problem records
+6.	Introduce recount process
+7.	Apply corrected stock values
+8.	Recalculate planning
+9.	Revalidate outcomes
+________________________________________
+System Flow
+Raw Data  
+→ Standardise  
+→ Validate  
+→ Flag Issues  
+→ Recount  
+→ Adjust Stock  
+→ Recalculate  
+→ Revalidate  
+→ Decision
+________________________________________
+Dashboard Outputs
+________________________________________
+1. Data Health Overview
+Shows:
+•	Total SKUs
+•	% Acceptable
+•	% Check
+•	% Problem
+Current state:
+•	Acceptable: 63.64%
+•	Check: 25.00%
+•	Problem: 11.36%
+________________________________________
+2. Current Data Reliability
+Visual distribution of data quality:
+How much of the dataset can be trusted right now?
+________________________________________
+3. Priority Actions
+A focused action layer showing:
+•	Product (with pack size clarity)
+•	Suggested order
+•	Days of cover
+•	Data reliability status
+This functions as a working decision tool, not just a report.
+________________________________________
+4. Impact of Recount Process
+Tracks improvement after intervention:
+Status	Before	After
+Acceptable	27.27%	63.64%
+Check	42.05%	25.00%
+Problem	30.68%	11.36%
+Improvement: +36.36% reliable data
+________________________________________
+Key Design Principles
+•	Do not plan on data you cannot trust
+•	Separate data issues from stock issues
+•	Preserve original data (no overwrites)
+•	Apply corrections as a layer
+•	Validate results after action
+•	Prioritise usability over complexity
+________________________________________
+Development Reality
+This project was not a straight build.
+Challenges included:
+•	Structured reference behaviour in Excel
+•	Named ranges vs tables conflicts
+•	Data type mismatches breaking lookups
+•	Formula debugging across dependent layers
+•	Balancing clean logic with usable outputs
+Several parts were:
+•	built
+•	broken
+•	tested
+•	rebuilt
+This reflects how real systems are developed.
+________________________________________
+Timeline
+Built as an iterative working session:
+Phase	Activity
+1	Data cleaning & structuring
+2	Product grouping logic
+3	Validation layer
+4	Debugging and restructuring
+5	Recount process design
+6	Feedback loop integration
+7	Dashboard build
+8	Final validation & refinement
+________________________________________
+What This Demonstrates
+•	Demand Planning capability
+•	Data validation under imperfect conditions
+•	Operational thinking (not just analysis)
+•	Ability to build a working correction process
+•	Decision-making under uncertainty
+________________________________________
+Final Thought
+This is not a perfect model.
+It is a realistic one.
+It shows how to move from:
+Inconsistent data → Controlled decisions → Measurable improvement
+________________________________________
+Key Takeaway
+Reliable decisions do not require perfect data — they require control, validation, and the ability to act on what can be trusted.
+
