@@ -1,0 +1,89 @@
+# Reigniting the Flame
+### Understanding the Problem and Searching for a Possible Solution
+
+*Intergenerational Knowledge Transfer as a Circuit Breaker of Poverty in Communities Caused by Macro-Level Extraction*
+
+**Keith Coetzee · 2026**
+
+---
+
+## What this started as
+
+This started as a portfolio piece. It was meant to demonstrate scope — that I could take a messy, real-world problem and analyse it the way I'd analyse a P&L or a stock file: find the pattern, trace the cause, follow it to its end.
+
+The core of it came from a question that had been sitting with me since 2024: a child loses their education to circumstances they didn't create, and at the other end of life, a retiree loses their sense of purpose to a workplace that simply stopped asking for them. Two losses, on opposite ends of a life, that looked — the longer I sat with them — like they could answer each other.
+
+It became something I did not expect. Somewhere in the process of tracing one causal chain after another — a shipping lane to a currency to a household, a mine to a death to a child — the diagnosis got rigorous enough that it stopped being an exercise a portfolio piece but rather started pointing at something with real world implications: an unmet need in one generation created by circumstances far removed from them, and an unused, idle resource in another at the end of the generational spectrum, close enough in shape to answer each other. The research kept going past that point, and found something I hadn't gone looking for — a hidden economy, with its own roles, its own costs, and its own business case, sitting quietly behind an idea that started as a question about a child and a retiree.
+
+The seed of this paper was a note written in 2024 — turning the worship of wealth into a religion, with its own seven deadly archangels. I didn't know at the time I was circling something larger. The note sat for a year and a half, gathering evidence each time it resurfaced, while I rebuilt my own skill set in data analysis, Power BI, and financial modelling — to do the presentation of it justice. This past weekend — roughly thirty-six hours, Friday night to Sunday lunch — I finally had the tools to bring it to light, and sat down to build it properly.
+
+That, I think, is what this kind of work is actually for. Not just taking data and finding what's wrong. Taking data, listening to what it's quietly arguing for, and being honest enough to say it out loud — even when saying it out loud turns out to be bigger than you expected.
+
+---
+
+## What this project actually is
+
+A fully sourced white paper, built in layers:
+
+- **The Hook** — a short, personal LinkedIn post, written to be felt before it's understood. No data, no citations. Just the human stakes, stated plainly.
+- **The Article** — the same emotional core, given a polished, branded presentation for slower reading.
+- **The White Paper** — the full argument. Two real, current, independently verified global causal chains (a Red Sea shipping disruption and a DRC cobalt mine) traced from a single macro-level decision through to a specific, named human cost. Quantified, where the evidence allows. Honest about where it doesn't.
+- **The Question** — deliberately, the paper does not end with a blueprint. It ends by naming a pattern — two forms of waste, one of potential and one of knowledge, sitting on opposite ends of life, shaped like each other's answer — and handing the question to whoever reads it next.
+
+It is not a charity proposal. It does not claim to have designed the solution. It is an argument, rigorously evidenced, that the answer to one form of waste may already be sitting, mostly unused, inside another.
+
+---
+
+## What I found hiding inside it
+
+Somewhere past the diagnosis, the analysis kept going. It found an economy.
+
+Not a metaphorical one. A real, staffable, and costable one, sitting quietly behind the paper's central argument:
+
+- Grassroots implementors, on the ground, in the communities the paper is actually about
+- Recruiters
+- Candidate Onboarders
+- Mentors and subject experts
+- Curriculum curators
+- Bursars and fundraisers
+- Operations coordinators
+- Accountants
+- Assessors and proctors
+
+The same teams, the same functions, the same cost-to-benefit logic any real business case requires — except the return on investment isn't a margin percentage. By the ILO's own published research, the return on eliminating child labour in sub-Saharan Africa runs at roughly 5.2 to 1. Few investment cases built in twenty-five years of operational finance return that cleanly.
+
+This project did not set out to build an institution. It set out to be a portfolio piece. The size of what it found was not designed — it was revealed, by taking the diagnosis seriously enough to let it finish.
+
+---
+
+## How it was built
+
+This is, deliberately, not a polished, ghost-written document. It is a transparent record of a real working process and my approach to analysis:
+
+1. **A causal chain, fully sourced** — every macro-to-micro claim in the paper is traced to a verifiable, citable, primary source. See `/data` for the full citation list and the raw-to-cleaned data folder structure.
+2. **Rigorous self-review** — the paper was read, challenged, and revised by myself, line by line, catching factual overreach (a retiree-health claim that needed correcting against the actual research), tone problems (an early draft that inadvertently implied accusation rather than invitation), and structural gaps (a missing causal link, a child-centred discipline that had to be enforced paragraph by paragraph).
+3. **A child-centred editorial rule** — every paragraph tracing harm was held to one standard: cause → chain of effect → impact = a specific child, not a statistic. Where a draft drifted into pure economics, it was brought back on focus.
+4. **A solution offered as a question, not a blueprint** — by deliberate choice, and consistent with how real analytical work is supposed to end. This paper does not prescribe the apprenticeship model it gestures toward. In any real-world engagement, the analyst's job is to trace the evidence rigorously and hand the findings to the stakeholder who actually has the authority, context, and resources to act on them. That is what this paper does. The pattern has been traced, sourced, and named. The handoff is to whoever is positioned to build on it — a funder, an NGO, a policymaker — with the findings, not a finished design, on the table.
+
+---
+
+## What's still to come
+
+- **`/data`** — the messy, raw public datasets behind every claim in the paper, alongside the cleaned versions, showing the full journey from raw source to finished argument
+- **`/tableau`** — *(in progress)* a layered geographic dashboard: resource extraction flows, potential and opportunity by region, child labour density, migration patterns, and a final reversed layer showing what replenishment through education could look like
+- **`/video`** — *(in progress)* a narrated, animated walkthrough of the Tableau visualisation, fading layer by layer across a single world map
+
+---
+
+## A note on scope
+
+This project is one person's attempt to draw a line that is usually left invisible — between a decision made at scale, far away, for reasons that have nothing to do with a child, and the child who pays for it anyway. It does not claim expertise in international development, child welfare programme design, or policy. It claims only that the line is real, that it can be traced, and that naming it is worth doing even by someone without the standing to finish the job alone.
+
+None of the data behind this paper is new, and none of it was chosen because it was convenient — a clean public dataset selected to make a tool look good in a portfolio piece. 
+Its an old idea with a new spin: all the data was already there. It just needed connecting. That is the actual point of this project. Not a demonstration of grasping a tool, but of the thinking that decides what to do with it.
+
+If this paper does its job, the reader finishing it is left asking the same question the author was left with: *where could this go, and who might be the first link in building it?*
+
+---
+
+*Keith Coetzee · 2026 · [LinkedIn](https://linkedin.com/in/keithcoetzeeza) · [GitHub](https://github.com/KeithCoetzee-ZA)*
