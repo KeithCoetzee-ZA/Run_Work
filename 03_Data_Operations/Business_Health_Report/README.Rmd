@@ -1,0 +1,265 @@
+## Why I Built This
+
+Business Intelligence is about more than creating attractive dashboards—it is about turning operational data into information that supports better decisions.
+
+I built the Business Health Report to demonstrate my ability to understand business processes, identify the metrics that matter, and transform raw operational data into meaningful management information. Rather than simply reporting historical figures, the solution automates the collection, transformation and presentation of financial and operational data, allowing decision-makers to identify trends, monitor profitability and respond to issues before they become costly.
+
+The project reflects the way I approach analytical work: understand the business first, design the data model around real operational requirements, and produce reporting that delivers measurable business insight. It demonstrates both technical capability and commercial understanding, combining data transformation, financial analysis and executive reporting into a single automated solution.
+
+For me, dashboards are not the objective—they are the interface through which business intelligence is communicated.
+
+## Skills Demonstrated
+
+This project showcases practical experience across the full reporting lifecycle, including:
+
+- Business Intelligence (BI) Reporting
+- Power Query (ETL) Development
+- Data Cleaning & Transformation
+- Financial Performance Analysis
+- Profitability & Margin Analysis
+- KPI Framework Design
+- Executive Dashboard Development
+- Management Information (MI) Reporting
+- Operational Performance Analysis
+- Business Process Analysis
+- Data Modelling
+- Excel Automation
+- Power Query M
+- Data Validation & Quality Assurance
+- Trend & Variance Analysis
+- Cash Flow Analysis
+- Financial Controls Reporting
+- Decision Support Reporting
+- Visual Data Storytelling
+- Process Improvement through Analytics
+
+## Business Value Delivered
+
+This project demonstrates how operational reporting can move beyond static spreadsheets to become a repeatable decision-support tool.
+
+By automating data preparation and standardising financial reporting, the solution reduces manual effort, improves reporting consistency, and provides management with timely insight into operational performance, profitability and cash flow. The design allows new reporting periods to be incorporated with minimal effort, ensuring that the dashboard remains a sustainable business asset rather than a one-off report.
+
+# Business Health Report (BHR)
+
+> A fully dynamic Power Query-driven Excel reporting solution for operational, profitability, and executive performance analysis.
+
+![Excel](https://img.shields.io/badge/Excel-Power%20Query-green)
+![Status](https://img.shields.io/badge/Status-Production-blue)
+![License](https://img.shields.io/badge/License-Copyrighted-lightgrey)
+
+---
+
+## Overview
+
+The **Business Health Report (BHR)** is a dynamic Microsoft Excel reporting engine designed to transform raw operational data into executive-level business intelligence.
+
+Using **Power Query**, the workbook automatically imports, cleans, transforms, and consolidates operational datasets into interactive dashboards and profitability reports.
+
+The system is designed to require **zero manual calculation**, allowing monthly reporting to be refreshed with a single click.
+
+---
+
+## Features
+
+- Dynamic Power Query ETL pipeline
+- Automated profitability calculations
+- Executive dashboard reporting
+- Multi-page management reports
+- PDF export for executive distribution
+- Multiple visual themes
+- Fully refreshable data model
+- Theme-independent dashboard architecture
+
+---
+
+## Data Sources
+
+The solution imports monthly operational data including:
+
+- Payments
+- Sales
+- Purchases
+- Cost of Sales
+- Salaries & Wages
+
+Power Query automatically performs:
+
+- Data cleaning
+- Type enforcement
+- Month detection
+- Data merging
+- Table shaping
+- Profitability calculations
+
+No manual preparation of source data is required.
+
+---
+
+## Profitability Metrics
+
+### Front-End Gross Profit
+
+- GP Rands
+- GP Percentage
+
+### Back Door Gross Profit
+
+- Supplier Rebates
+- Discounts
+- Recovery Adjustments
+- Back Door GP Rands
+- Back Door GP Percentage
+
+### Cash Flow Gross Profit (CFGP)
+
+- Cash Flow GP Rands
+- Cash Flow GP Percentage
+- Actual CFGP
+- Actual CFGP Rands
+- Month-on-Month Variance
+- Trend Indicators
+
+All metrics refresh automatically whenever the underlying data changes.
+
+---
+
+# Dashboard
+
+## Page 1 – Operational Overview
+
+Displays high-level operational KPIs including:
+
+- Total Payments
+- Total Sales (Ex VAT)
+- Total Cost (Ex VAT)
+- Salaries & Wages
+
+---
+
+## Page 2 – Profitability Overview
+
+Executive profitability dashboard showing:
+
+- Front-End GP %
+- Back Door GP Rands
+- Back Door GP %
+- Total YTD CFGP %
+- Actual CFGP Rands
+- Actual CFGP %
+
+Visualisations include:
+
+- Dynamic monthly charts
+- Conditional formatting
+- Positive / Negative GP scaling
+- Responsive labels
+- Theme-independent layout
+
+---
+
+## Themes
+
+The workbook supports multiple colour themes without changing the underlying model.
+
+- Standard
+- Gold
+- Orange
+
+Only the visual styling changes—the reporting engine remains identical.
+
+---
+
+## Project Structure
+
+```
+Business-Health-Report/
+│
+├── raw_data/
+│   ├── payments.csv
+│   ├── sales.csv
+│   ├── purchases.csv
+│   ├── cost_of_sales.csv
+│   ├── salaries_and_wages.csv
+│
+├── dashboards/
+│   ├── BHR_Standard.xlsx
+│   ├── BHR_Gold.xlsx
+│   ├── BHR_Orange.xlsx
+│   │
+│   └── PDF Exports/
+│       ├── BHR_Standard.pdf
+│       ├── BHR_Gold.pdf
+│       └── BHR_Orange.pdf
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+## Refresh Process
+
+1. Copy the latest monthly files into `raw_data/`
+2. Open the workbook
+3. Select **Refresh All**
+4. Power Query updates every table
+5. Dashboards refresh automatically
+6. Export to PDF if required
+
+No manual editing is necessary.
+
+---
+
+## Requirements
+
+- Microsoft Excel (Power Query enabled)
+- CSV or XLSX source files
+- Windows or macOS
+
+---
+
+## Technical Highlights
+
+- Power Query ETL
+- Dynamic Tables
+- Automated Dashboard Refresh
+- Executive KPI Reporting
+- Profitability Analytics
+- Cash Flow Analysis
+- Theme-Independent Design
+- Dynamic Chart Scaling
+- PDF Reporting
+
+---
+
+## Portfolio Highlights
+
+This project demonstrates practical experience with:
+
+- Business Intelligence
+- Excel Dashboard Development
+- Power Query
+- Financial Reporting
+- Operational Analytics
+- KPI Design
+- Executive Reporting
+- Data Transformation
+- Process Automation
+- Performance Monitoring
+
+---
+
+## Author
+
+**Keith Coetzee**
+
+Business & Operations Data Analyst
+
+Komani, South Africa
+
+© 2026 Keith Coetzee
+
+All Rights Reserved.
+
+This repository is provided for portfolio and demonstration purposes only.
+No part of this project may be copied, redistributed, or used commercially without prior written permission.
